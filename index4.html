@@ -1,0 +1,11 @@
+<bold>test</bold>
+
+function init() {
+ Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/16lEIc-VFiL-K1X9lgvBIb4dEAwVvei0InlMFUEYurD4/pubhtml',
+ callback: function(data, tabletop) { 
+ console.log(data)
+ },
+ simpleSheet: true } )
+}
+window.addEventListener(‘DOMContentLoaded’, init)
+
